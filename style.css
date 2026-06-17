@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #3498db;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.location {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ecf0f1;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+section h2 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #3498db;
+}
+
+section p {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.education-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #3498db;
+}
+
+.education-item h3 {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.job-item {
+    margin-bottom: 15px;
+}
+
+.job-item h3 {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.job-role {
+    color: #3498db;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px !important;
+}
+
+.job-item ul {
+    margin-left: 20px;
+    color: #555;
+}
+
+.job-item li {
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    border: 1px solid #bdc3c7;
+}
+
+.project-item {
+    margin-bottom: 15px;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #27ae60;
+}
+
+.project-item h3 {
+    font-size: 15px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.project-item p {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+section ul {
+    margin-left: 25px;
+    color: #555;
+}
+
+section li {
+    margin-bottom: 8px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+strong {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* =============================================
+   RESPONSIVE DESIGN - For Mobile Phones
+   ============================================= */
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 18px;
+    }
+
+    .skills {
+        gap: 6px;
+    }
+
+    .skill {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+
+    header {
+        padding: 20px 15px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 16px;
+    }
+}
