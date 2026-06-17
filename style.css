@@ -16,8 +16,11 @@ header {
     color: white;
     padding: 30px 20px;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 20px;
-    border-bottom: 4px solid #3498db;
+    border-bottom: 5px solid #3498db;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(29, 29, 29, 0.1);
 }
 
 header h1 {
@@ -42,15 +45,16 @@ header h1 {
 .container {
     max-width: 900px;
     margin: 0 auto;
+    margin-bottom: 5px;
     background-color: white;
     padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(29, 29, 29, 0.1);
 }
 
 section {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
 }
 
 section:last-child {
@@ -122,15 +126,6 @@ section p {
     gap: 8px;
 }
 
-.skill {
-    background-color: #ecf0f1;
-    color: #2c3e50;
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 13px;
-    border: 1px solid #bdc3c7;
-}
-
 .project-item {
     margin-bottom: 15px;
     padding: 12px;
@@ -164,53 +159,4 @@ section li {
 strong {
     color: #2c3e50;
     font-weight: bold;
-}
-
-/* =============================================
-   RESPONSIVE DESIGN - For Mobile Phones
-   ============================================= */
-
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 22px;
-    }
-
-    .container {
-        padding: 20px;
-    }
-
-    section h2 {
-        font-size: 18px;
-    }
-
-    .skills {
-        gap: 6px;
-    }
-
-    .skill {
-        padding: 5px 10px;
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 13px;
-    }
-
-    header {
-        padding: 20px 15px;
-    }
-
-    header h1 {
-        font-size: 20px;
-    }
-
-    .container {
-        padding: 15px;
-    }
-
-    section h2 {
-        font-size: 16px;
-    }
 }
